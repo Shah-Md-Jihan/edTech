@@ -6,3 +6,9 @@
 .lk_hover:hover {
     color: #dc3545;
 }
+
+/* course section style */
+.pd_course_btn {
+    padding-left: 5rem;
+    padding-top: 2rem;
+}
