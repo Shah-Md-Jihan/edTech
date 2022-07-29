@@ -1,3 +1,18 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    font-family: 'Lobster', cursive;
+    padding: 10px 20px;
+    font-size: 2rem;
+    color: #dc3545;
+}
+
 /* navigation section */
 .btn_hover:hover {
     color: #fff;
@@ -9,12 +24,34 @@
 
 /* course section style */
 .pd_course_btn {
-    padding-left: 5rem;
     padding-top: 2rem;
 }
+
+/* join section  */
+.custom_register_btn {
+    background-color: #fff;
+    color: #0d6efd;
+    text-decoration: none;
+    padding: 10px 50px;
+    border-radius: 3px;
+}
+
 
 /* client section style */
 .brand_img {
     width: 140px;
     height: 35px;
+}
+
+/* footer style start */
+.foot_bg {
+    background-color: #161616;
+}
+
+.fa-facebook-f,
+.fa-instagram,
+.fa-linkedin-in {
+    font-size: 18px;
+    color: #fff;
+    padding: 0px 4px;
 }
