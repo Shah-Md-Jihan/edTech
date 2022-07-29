@@ -6,11 +6,23 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.logo {
+/* common css */
+.section_title {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.section_description {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.logo a {
     font-family: 'Lobster', cursive;
     padding: 10px 20px;
     font-size: 2rem;
     color: #dc3545;
+    text-decoration: none;
 }
 
 /* navigation section */
@@ -22,9 +34,37 @@ body {
     color: #dc3545;
 }
 
+/* slider section start */
+
+.banner_description {
+    font-size: 12px;
+}
+
+.banner_title {
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
 /* course section style */
 .pd_course_btn {
     padding-top: 2rem;
+}
+
+.course_title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.course_description {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.c_price {
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
 /* join section  */
@@ -36,6 +76,16 @@ body {
     border-radius: 3px;
 }
 
+.register_title {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.register_details {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: justify;
+}
 
 /* client section style */
 .brand_img {
@@ -54,4 +104,9 @@ body {
     font-size: 18px;
     color: #fff;
     padding: 0px 4px;
+}
+
+.footer_address {
+    font-size: 1rem;
+    font-weight: 400;
 }
